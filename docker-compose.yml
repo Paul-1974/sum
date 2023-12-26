@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  sum:
+      image: ubuntu/sum
+      command: python3.10 /sum.py
+      stdin_open: true
+      tty: true

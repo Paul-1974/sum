@@ -29,7 +29,7 @@ def summa_n(number):
   sum = 0
   for count in range(1, number + 1):
     sum += count
-  print(sum)
+# print(sum)
   return sum
   
 def main():
